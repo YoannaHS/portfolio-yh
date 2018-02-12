@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #757575;
+}
+/* Estilos para el header principal */
+.menu-principal {
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+
+.photo1 {
+  width: 100%;
+}
+
+.name-title p {
+  margin-top:10em; 
+}
+
+.name-title strong {
+  filter: drop-shadow(2px 2px 1px #9999);
+  font-size: 3em;
+}
+
+.name-title span {
+  font-size: 2em;
+  line-height: 3em;
+}
+
+/* Estilos para la sección de redes sociales */
+.section-social {
+  margin-top: 2rem;
+}
+
+/* Estilos para la foto principal */
+.parallax-container {
+  margin-top: 5rem;
+  z-index: 1000;
+  height: 400px;
+}
+
+.parallax-container:before {
+  background: rgba(0, 0, 0, .3);
+  position: absolute;
+}
+
+/* Estilos para sección de proyectos */
+.presentacion-proyects p {
+  font-size: 1.5em;
+  padding: 3rem;
+}
+
+.presentacion-proyects span {
+  font-size: 2em;
+  line-height: 3em;
+}
