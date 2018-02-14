@@ -57,13 +57,26 @@
   padding: 3rem;
 }
 
-.process img {
+.process .icon-flujo {
   width: 3rem;
 }
 
 .process .line {
-  width: 48rem;
+  max-width: 78%;
 }
+
+.descripcion-flujo h6 {
+  font-size: 15px;
+}
+
+.descripcion-flujo .proyecto {
+  padding-left: 4rem;
+}
+
+.descripcion-flujo .producto {
+  padding-right: 4rem;
+}
+
 .presentacion-proyects p {
   font-size: 1.2em;
   padding: 3rem;
