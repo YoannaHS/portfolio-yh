@@ -29,6 +29,12 @@
   line-height: 3em;
 }
 
+.name-title .descripcion {
+  margin-top: 1em;
+  font-size: 1.2em;
+  padding: 3rem;
+}
+
 /* Estilos para la sección de redes sociales */
 .section-social {
   margin-top: 2rem;
@@ -47,8 +53,19 @@
 }
 
 /* Estilos para sección de proyectos */
+.process .icons {
+  padding: 3rem;
+}
+
+.process img {
+  width: 3rem;
+}
+
+.process .line {
+  width: 48rem;
+}
 .presentacion-proyects p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding: 3rem;
 }
 
