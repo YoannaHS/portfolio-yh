@@ -41,18 +41,18 @@
 }
 
 /* Estilos para la foto principal */
-.parallax-container {
-  margin-top: 5rem;
-  z-index: 1000;
-  height: 400px;
-}
 
-.parallax-container:before {
-  background: rgba(0, 0, 0, .3);
-  position: absolute;
-}
 
 /* Estilos para sección de proyectos */
+.presentacion-proyects p {
+  font-size: 1.2em;
+  padding: 3rem;
+}
+
+.presentacion-proyects span {
+  font-size: 2em;
+  line-height: 3em;
+}
 .process .icons {
   padding: 3rem;
 }
@@ -67,6 +67,7 @@
 
 .descripcion-flujo h6 {
   font-size: 15px;
+  margin-bottom: 4rem;
 }
 
 .descripcion-flujo .proyecto {
@@ -77,12 +78,11 @@
   padding-right: 4rem;
 }
 
-.presentacion-proyects p {
-  font-size: 1.2em;
-  padding: 3rem;
+/* Estilos del footer */
+.content-box img {
+  width: 3rem;
 }
 
-.presentacion-proyects span {
-  font-size: 2em;
-  line-height: 3em;
+.footer-box {
+  height: 150px;
 }
