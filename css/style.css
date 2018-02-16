@@ -74,8 +74,22 @@
   padding-left: 4rem;
 }
 
-.descripcion-flujo .producto {
-  padding-right: 4rem;
+/* Estilos para la sección de imágenes del portafolio */
+.container-photo-laptop {
+  height: 40vh;
+  background-image: url('../assets/photo/portfolio-laptop.jpg');
+  opacity: 0.8;
+}
+
+.portfolio-text {
+  margin-top: 6rem;
+  color: #F3F3F3;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.section-img {
+  margin: 4rem 0;
 }
 
 /* Estilos del footer */
@@ -84,5 +98,6 @@
 }
 
 .footer-box {
-  height: 150px;
+  margin-top: 3rem;
+  height: 130px;
 }
