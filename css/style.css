@@ -68,17 +68,9 @@
   width: 3rem;
 }
 
-.line {
-  width: 58rem;
-}
-
 .descripcion-flujo h6 {
   font-size: 15px;
   margin-bottom: 4rem;
-}
-
-.descripcion-flujo .proyecto {
-  padding-left: 4rem;
 }
 
 .portfolio-text {
