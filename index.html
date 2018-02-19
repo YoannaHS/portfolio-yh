@@ -17,12 +17,11 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Enlazamos tipografía de google font -->
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js">
   <title>YoannaHS - UX Designer</title>
 </head>
 <body style="background:#F5F5F5">
   <!-- Agregamos el navbar de todas las vistas -->
-  <div class="container" style="background:white">
+  <div class="container-white">
     <header>
       <div class="row menu-principal">
         <div class="col s12 m12">
@@ -34,7 +33,7 @@
               <a href="#" class="active" style="color: #757575;">Sobre mí</a>
             </li>
             <li class="tab col s3 m3">
-              <a href="#" style="color: #757575;">Proyectos</a>
+              <a href="#proyectos" style="color: #757575;">Proyectos</a>
             </li>
             <li class="tab col s3 m3">
               <a href="#" style="color: #757575;">Contacto</a>
@@ -53,33 +52,34 @@
         <p class="descripcion">Hoy en día la tecnología nos permite ofrecer soluciones y experiencias extraordinarias. Cómo UX Designer, disfruto
           diseñar soluciones simples y plasmarlas en productos digitales que sean útiles, usables y deseables.</p>
       </div>
+       <!-- Añadimos la foto principal -->
+      <div class="row">
+        <div class="col s12 m12 center-align">
+          <img src="assets/photo/photo-profile.jpg" alt="" class="circle responsive-img photo-profile">
+        </div>
+      </div>
       <!-- Añadimos las redes sociales -->
       <div class="col s12 m12 center-align section-social">
         <div class="col s4 m4">
-          <a href="https://www.instagram.com/yhernandez.s/?hl=es-la" target="_black">
-            <i class="fab fa-instagram fa-2x" style="color:#ff383f"></i>
+          <a href="https://github.com/YoannaHS" target="_black">
+            <i class="fab fa-github fa-3x" style="color:#ff383f"></i>
+          </a>
+        </div>
+        <div class="col s4 m4">
+          <a href="https://www.linkedin.com/in/yoannahs/" target="_black">
+            <i class="fab fa-linkedin-in fa-3x" style="color:#ff383f"></i>
           </a>
         </div>
         <div class="col s4 m4">
           <a href="https://medium.com/@yoannahernandez.s" target="_black">
-            <i class="fab fa-medium-m fa-2x" style="color:#ff383f"></i>
-          </a>
-        </div>
-        <div class="col s4 m4">
-          <a href="https://www.linkedin.com/in/yhernandezs/" target="_black">
-            <i class="fab fa-linkedin-in fa-2x" style="color:#ff383f"></i>
+            <i class="fab fa-medium-m fa-3x" style="color:#ff383f"></i>
           </a>
         </div>
       </div>
     </div>
-    <!-- Añadimos la foto principal -->
-    <div class="row">
-      <div class="col s12 m12">
-        <div class="section-container about-photo-container about-photo-1"></div>
-      </div>
-    </div>
+    <div class="divider"></div>
     <!-- Sección de proyectos -->
-    <div class="row">
+    <div class="row" id="proyectos">
       <div class="col s12 m12 center-align presentacion-proyects">
         <span>Proyectos</span>
         <p>Los proyectos presentados han sido estructurados bajo una metología "Ágil", con el propósito de crear soluciones
@@ -89,69 +89,80 @@
         <div class="icons">
           <div class="col s2 m2 center-align">
             <img src="assets/icons/working-briefcase.png" class="responsive-img icon-flujo" alt="">
+            <h6>Presentación del MVP</h6>
           </div>
           <div class="col s2 m2 center-align">
             <img src="assets/icons/stopwatch.png" class="responsive-img icon-flujo" alt="">
+            <h6>Sprint de 7 a <br> 10 días</h6>
           </div>
           <div class="col s2 m2 center-align">
             <img src="assets/icons/group.png" class="responsive-img icon-flujo" alt="">
+            <h6>Dividir las funciones del equipo</h6>
           </div>
           <div class="col s2 m2 center-align">
             <img src="assets/icons/research.png" class="responsive-img icon-flujo" alt="">
+            <h6>Research de nuevas herramientas</h6>
           </div>
           <div class="col s2 m2 center-align">
             <img src="assets/icons/ux-design.png" class="responsive-img icon-flujo" alt="">
+            <h6>Funcionalidad, Maquetado, *Análisis de Data</h6>
           </div>
           <div class="col s2 m2 center-align">
             <img src="assets/icons/responsive-product.png" class="responsive-img icon-flujo" alt="">
+            <h6>Presentación y code review</h6>
           </div>
         </div>
-        <div class="col s12 m12">
-          <img src="assets/icons/flujo.png" class="responsive-img line" alt="">
-        </div>
       </div>
-      <div class="descripcion-flujo">
-        <div class="col s2 m2 center-align proyecto">
-          <h6>Presentación del MVP</h6>
-        </div>
-        <div class="col s2 m2 center-align">
-          <h6>Sprint de 7 a <br> 10 días</h6>
-        </div>
-        <div class="col s2 m2 center-align">
-          <h6>Dividir las funciones del equipo</h6>
-        </div>
-        <div class="col s2 m2 center-align">
-          <h6>Research de nuevas herramientas</h6>
-        </div>
-        <div class="col s2 m2 center-align">
-          <h6>Funcionalidad, Maquetado, *Análisis de Data</h6>
-        </div>
-        <div class="col s2 m2 center-align producto">
-          <h6>Presentación y code review</h6>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <!-- Imagen de fondo del portafolio -->
-      <section class="col s12 m12 center-align">
-        <div class="portfolio-laptop container-photo-laptop">
-          <div class="col s6 m6 offset-s3 offset-m3 portfolio-text">Portafolio</div>
-        </div>
-      </section>
     </div>
     <!-- Secciones para imágenes de los proyectos -->
-    <div class="row">
-      <div class="col s12 m12 center-align">
+    <div class="row proyects-github">
+      <div class="col s6 m6 center-align">
         <div class="section-img">
-          <img src="assets/proyects/la-terminal.png" class="responsive-img" alt="">
+          <img src="assets/proyects/qapiriy/qapiriy-logo.png" class="responsive-img" alt="">
         </div>
       </div>
-      <div class="col s12 m12">
+      <div class="col s6 m6 center-align">
         <div class="section-img col s6 m6 center-align">
-          <img src="assets/proyects/qapiriy .png" class="responsive-img" alt="">
+          <img src="assets/proyects/qapiriy/qapiriy-website.png" class="responsive-img"alt="">
+          <a href="https://yoannahs.github.io/q-apiriy/" target="_black" class="waves-effect waves-light red darken-1 btn">PAGE</a>
         </div>
         <div class="section-img col s6 m6 center-align">
-          <img src="assets/proyects/learin.png" class="responsive-img" alt="">
+          <img src="assets/proyects/qapiriy/qapiriy-gh.png" class="responsive-img" alt="">
+          <a href="https://github.com/YoannaHS/q-apiriy" target="_black" class="waves-effect waves-light red darken-1 btn">GIT HUB</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s6 m6 center-align">
+        <div class="section-img">
+          <img src="assets/proyects/la-terminal/laterminal-logo.png" class="responsive-img" alt="">
+        </div>
+      </div>
+      <div class="col s6 m6 center-align">
+        <div class="section-img col s6 m6 center-align">
+          <img src="assets/proyects/la-terminal/laterminal-prot.gif" class="responsive-img" alt="">
+          <a href="https://marvelapp.com/2jd0e93/screen/38613547" target="_black" class="waves-effect waves-light red darken-1 btn">PAGE</a>
+        </div>
+        <div class="section-img col s6 m6 center-align" id="section-proyects">
+          <img src="assets/proyects/la-terminal/laterminal-proceso.png" class="responsive-img" alt="">
+          <a href="https://github.com/YoannaHS/UX_Bux" target="_black" class="waves-effect waves-light red darken-1 btn">GIT HUB</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s6 m6 center-align">
+        <div class="section-img">
+          <img src="assets/proyects/ods/logo-hkt.png" class="responsive-img" alt="">
+        </div>
+      </div>
+      <div class="col s6 m6 center-align">
+        <div class="section-img col s6 m6 center-align">
+          <img src="assets/proyects/ods/hkt-website.png" class="responsive-img" alt="">
+          <a href="https://yoannahs.github.io/lazos_de_ayuda/" target="_black" class="waves-effect waves-light red darken-1 btn">PAGE</a>
+        </div>
+        <div class="section-img col s6 m6 center-align" id="section-proyects">
+          <img src="assets/proyects/ods/hkt-proceso.png" class="responsive-img" alt="">
+          <a href="https://github.com/YoannaHS/lazos_de_ayuda" target="_black" class="waves-effect waves-light red darken-1 btn">GIT HUB</a>
         </div>
       </div>
     </div>
@@ -193,7 +204,7 @@
           </footer>
         </div>
       </div>
-
+  
   <!-- Librería de JS Jquery -->
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <!-- Archivo JS de Materialize -->

@@ -5,14 +5,15 @@
   font-family: 'Josefin Sans', sans-serif;
   color: #757575;
 }
+
+.container-white {
+  margin: 0 7rem;
+  background-color: white;
+}
 /* Estilos para el header principal */
 .menu-principal {
   margin-top: 3rem;
   padding-top: 1rem;
-}
-
-.photo1 {
-  width: 100%;
 }
 
 .name-title p {
@@ -37,11 +38,14 @@
 
 /* Estilos para la sección de redes sociales */
 .section-social {
-  margin-top: 2rem;
+  margin-top: rem;
+  margin-bottom: 4rem;
 }
 
 /* Estilos para la foto principal */
-
+.photo-profile {
+  width: 15rem;
+}
 
 /* Estilos para sección de proyectos */
 .presentacion-proyects p {
@@ -49,6 +53,9 @@
   padding: 3rem;
 }
 
+.presentacion-proyects {
+  margin-top: 4em;
+}
 .presentacion-proyects span {
   font-size: 2em;
   line-height: 3em;
@@ -61,8 +68,8 @@
   width: 3rem;
 }
 
-.process .line {
-  max-width: 78%;
+.line {
+  width: 58rem;
 }
 
 .descripcion-flujo h6 {
@@ -74,22 +81,18 @@
   padding-left: 4rem;
 }
 
-/* Estilos para la sección de imágenes del portafolio */
-.container-photo-laptop {
-  height: 40vh;
-  background-image: url('../assets/photo/portfolio-laptop.jpg');
-  opacity: 0.8;
-}
-
 .portfolio-text {
   margin-top: 6rem;
   color: #F3F3F3;
   font-size: 3em;
-  font-weight: 600;
 }
 
 .section-img {
   margin: 4rem 0;
+}
+
+.proyects-github {
+  margin-top: 4rem;
 }
 
 /* Estilos del footer */
@@ -100,4 +103,8 @@
 .footer-box {
   margin-top: 3rem;
   height: 130px;
+}
+
+.yoannahs {
+  margin-top: 1rem;
 }
