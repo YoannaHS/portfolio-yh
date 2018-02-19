@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #757575;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+.container-white {
+  margin: 0 7rem;
+  background-color: white;
+}
+
+.menu-principal {
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+/* Estilos del main principal */
+.desvanecer:hover {
+  opacity: 0.07;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+  background-color: rgba(31, 31, 31, 0.9);
+}
+
+.desvanecer {
+  opacity: 0.6;
+}
