@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Soy Yoanna Hernandez, UX Designer egresada de Laboratoria, enamorada de esta disciplina, inmersa en mejorar la experiencia del usuario a través de soluciones simples y plasmarlas en productos digitales.">
   <!-- Enlazamos el framework de Materialize -->
   <link rel="stylesheet" href="vendors/materialize/css/materialize.min.css">
   <!-- Hoja de estilos personalizado -->
@@ -19,44 +20,48 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
   <title>YoannaHS - UX Designer</title>
 </head>
+
 <body>
-  <!-- Agregamos el navbar de todas las vistas -->
   <div class="container-white">
     <header>
-      <div class="row menu-principal">
+      <div class="row show-on-small hide-on-med-and-up">
+        <div class="col s12 logo center-align">
+          <a href="index.html" data-activates="mobile-demo" class="btn btn-floating grey darken-1">YH</a>
+        </div>
+      </div>
+      <div class="row menu-principal hide-on-small-only">
         <div class="col s12 m12">
-          <div class="col s3 m3">
-            <a href="index.html" data-activates="mobile-demo" class="btn btn-floating grey darken-1">YH</a>
-          </div>
-          <ul class="tabs col s9 m9">
-            <li class="tab col s3 m3">
-              <a href="#" class="active" style="color: #757575;">Sobre mí</a>
+          <ul class="tabs">
+            <li class="col m3">
+              <a href="index.html" data-activates="mobile-demo" class="btn btn-floating grey darken-1">YH</a>
             </li>
             <li class="tab col s3 m3">
-              <a href="" style="color: #757575;">Proyectos</a>
+              <a href="#" class="active" style="color: #757575;">Conóceme</a>
             </li>
             <li class="tab col s3 m3">
-              <a href="#" style="color: #757575;">Contacto</a>
+              <a href="https://www.linkedin.com/in/yoannahs/" target="_black" style="color: #757575;">Resumen Profesional
+              </a>
+            </li>
+            <li class="tab col s3 m3">
+              <a href="https://github.com/YoannaHS" target="_black" style="color: #757575;">Proyectos Anteriores</a>
             </li>
           </ul>
         </div>
       </div>
     </header>
     <div class="divider"></div>
-    <div class="row">
-      <div class="col s12 m12 name-title center-align">
-        <p>
+    <div class="row" id="test1">
+      <div class="col m12 center-align name-title">
+        <p class="myname">
           <strong>YOANNA HERNÁNDEZ</strong>
         </p>
-        <span>UX Designer</span>
+        <h4>UX Designer</h4>
         <p class="descripcion">Hoy en día la tecnología nos permite ofrecer soluciones y experiencias extraordinarias. Como UX Designer, disfruto
           diseñar soluciones simples y plasmarlas en productos digitales que sean útiles, usables y deseables.</p>
       </div>
-       <!-- Añadimos la foto principal -->
-      <div class="row">
-        <div class="col s12 m12 center-align">
-          <img src="assets/photo/photo-profile.jpg" alt="" class="circle responsive-img photo-profile">
-        </div>
+      <!-- Añadimos la foto principal -->
+      <div class="col s12 m12 center-align">
+        <img src="assets/photo/photo-profile.jpg" alt="" class="circle responsive-img photo-profile">
       </div>
       <!-- Añadimos las redes sociales -->
       <div class="col s12 m12 center-align section-social">
@@ -78,12 +83,86 @@
       </div>
     </div>
     <div class="divider"></div>
-    <!-- Sección de proyectos -->
-    <div class="row" id="">
+    <!-- Añadimos sección de proyectos movile -->
+    <div class="row show-on-small hide-on-med-and-up" id="test2">
+      <div class="col s12 center-align presentacion-proyects">
+        <span>Proyectos</span>
+        <p>Los proyectos presentados han sido estructurados bajo una metología "Ágil", con el propósito de crear soluciones
+          viables y plasmarlos en productos digitales de alto impacto.</p>
+      </div>
+    </div>
+    <div class="row show-on-small hide-on-med-and-up">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light sticky-action">
+            <img src="assets/proyects/qapiriy/qapiriy-logo.png" class="responsive-img activator">
+            <div class="collapsible-header active">
+              <p> | La red social que integra a toda una comunidad dispuesta a colaborar en el voluntariado mientras Viaja, Comparte
+                y vive nuevas experiencias.</p>
+            </div>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+              <i class="material-icons right">close</i>
+            </span>
+            <a class="waves-effect waves-light btn red col s12 gh-pages" href="https://yoannahs.github.io/q-apiriy/">
+              <i class="fab fa-github"></i>Web Site</a>
+            <a class="waves-effect waves-light btn red col s12 gh-pages" href="https://github.com/YoannaHS/q-apiriy">
+              <i class="fas fa-wrench"></i>Process</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row show-on-small hide-on-med-and-up">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light sticky-action">
+            <img src="assets/proyects/la-terminal/laterminal-logo.png" class="responsive-img activator">
+            <div class="collapsible-header active">
+              <p> | La Terminal es una plataforma de venta de boletos de viaje vía terrestre. Diseñada para usuarios que buscan
+                facilidad y rapidez en su compra.</p>
+            </div>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+              <i class="material-icons right">close</i>
+            </span>
+            <a class="waves-effect waves-light btn red col s12 gh-pages" href="https://marvelapp.com/2jd0e93/screen/38613547">
+              <i class="fab fa-github"></i>Prototype</a>
+            <a class="waves-effect waves-light btn red col s12 gh-pages" href="https://github.com/YoannaHS/UX_Bux">
+              <i class="fas fa-wrench"></i>Process</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row show-on-small hide-on-med-and-up">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light sticky-action">
+            <img src="assets/proyects/ods/logo-hkt.png" class="responsive-img activator">
+            <div class="collapsible-header active">
+              <p>| Aplicación web movile que brinda contactos profesionales a mujeres victimas de violencia domestica.</p>
+            </div>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+              <i class="material-icons right">close</i>
+            </span>
+            <a class="waves-effect waves-light btn red col s12 gh-pages" href="https://yoannahs.github.io/lazos_de_ayuda/">
+              <i class="fab fa-github"></i>Prototype</a>
+            <a class="waves-effect waves-light btn red col s12 gh-pages" href="https://github.com/YoannaHS/lazos_de_ayuda">
+              <i class="fas fa-wrench"></i>Process</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <!-- Secciones para imágenes de los proyectos desktop -->
+    <div class="row hide-on-small-only">
       <div class="col s12 m12 center-align presentacion-proyects">
         <span>Proyectos</span>
-        <p>Los proyectos presentados han sido estructurados bajo una metología "Ágil", con el propósito de crear soluciones viables
-          y plasmarlos en productos digitales de alto impacto.</p>
+        <p>Los proyectos presentados han sido estructurados bajo una metología "Ágil", con el propósito de crear soluciones
+          viables y plasmarlos en productos digitales de alto impacto.</p>
       </div>
       <div class="col s12 m12 process center-align">
         <div class="icons">
@@ -93,7 +172,8 @@
           </div>
           <div class="col s2 m2 center-align">
             <img src="assets/icons/stopwatch.png" class="responsive-img icon-flujo" alt="">
-            <h6>Sprint de 7 a <br> 10 días</h6>
+            <h6>Sprint de 7 a
+              <br> 10 días</h6>
           </div>
           <div class="col s2 m2 center-align">
             <img src="assets/icons/group.png" class="responsive-img icon-flujo" alt="">
@@ -114,8 +194,7 @@
         </div>
       </div>
     </div>
-    <!-- Secciones para imágenes de los proyectos -->
-    <div class="row proyects-github">
+    <div class="row proyects-github hide-on-small-only">
       <div class="col s6 m6 center-align">
         <div class="section-img">
           <img src="assets/proyects/qapiriy/qapiriy-logo.png" class="responsive-img" alt="">
@@ -123,7 +202,7 @@
       </div>
       <div class="col s6 m6 center-align">
         <div class="section-img col s6 m6 center-align">
-          <img src="assets/proyects/qapiriy/qapiriy-website.png" class="responsive-img"alt="">
+          <img src="assets/proyects/qapiriy/qapiriy-website.png" class="responsive-img" alt="">
           <a href="https://yoannahs.github.io/q-apiriy/" target="_black" class="waves-effect waves-light red darken-1 btn">PAGE</a>
         </div>
         <div class="section-img col s6 m6 center-align">
@@ -132,7 +211,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row hide-on-small-only">
       <div class="col s6 m6 center-align">
         <div class="section-img">
           <img src="assets/proyects/la-terminal/laterminal-logo.png" class="responsive-img" alt="">
@@ -149,7 +228,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row hide-on-small-only">
       <div class="col s6 m6 center-align">
         <div class="section-img">
           <img src="assets/proyects/ods/logo-hkt.png" class="responsive-img" alt="">
@@ -166,45 +245,54 @@
         </div>
       </div>
     </div>
-      <!-- Footer del portafolio -->
-      <div class="row">
-        <div class="divider"></div>
-        <div class="col s12 m12">
-          <footer class="center-align footer-box">
-            <div class="col s4 m4">
-              <div class="content-box center-align">
-                <span>
-                  <img src="assets/icons/location.png" alt="" class="responsive-img">
-                </span>
-                <br>
-                <span>Lima - Perú</span>
-              </div>
-            </div>
-            <div class="col s4 m4">
-              <div class="content-box center-align">
-                <a href="assets/document/YoannaHS-46757357-Adm,Neg.Int.pdf" download="YoannaHernandez-CV">
-                  <img src="assets/icons/cv.png" alt="" class="responsive-img">
-                </a>
-                <br>
-                <span>Descargar CV</span>
-              </div>
-            </div>
-            <div class="col s4 m4">
-              <div class="content-box center-align">
-                <span>
-                  <img src="assets/icons/mail.png" alt="" class="responsive-img">
-                </span>
-                <br>
-                <span>yoannahernandez.s@gmail.com</span>
-              </div>
-            </div>
-            <div class="col s12 m12 center-align yoannahs">
-              <h6>@ YoannaHS Product Design Portfolio</h6>
-            </div>
-          </footer>
-        </div>
+    <div class="divider"></div>
+    <div class="col s12 show-on-small hide-on-med-and-up">
+      <div class="center-align email">
+        <span>
+          <i class="fas fa-envelope" style="color:#ff383f"></i>yoannahernandez.s@gmail.com</span>
       </div>
-  
+    </div>
+    <div class="col s12 m12 center-align yoannahs show-on-small hide-on-med-and-up">
+      <h6>@ YoannaHS Product Design Portfolio</h6>
+    </div>
+    <div class="row hide-on-small-only">
+      <div class="divider"></div>
+      <div class="col s12 m12">
+        <footer class="center-align footer-box">
+          <div class="col s4 m4">
+            <div class="content-box center-align">
+              <span>
+                <img src="assets/icons/location.png" alt="" class="responsive-img">
+              </span>
+              <br>
+              <span>Lima - Perú</span>
+            </div>
+          </div>
+          <div class="col s4 m4">
+            <div class="content-box center-align">
+              <a href="assets/document/YoannaHernandez-CV-UX.pdf" download="YoannaHernandez-CV">
+                <img src="assets/icons/cv.png" alt="" class="responsive-img">
+              </a>
+              <br>
+              <span>Descargar CV</span>
+            </div>
+          </div>
+          <div class="col s4 m4">
+            <div class="content-box center-align">
+              <span>
+                <img src="assets/icons/mail.png" alt="" class="responsive-img">
+              </span>
+              <br>
+              <span>yoannahernandez.s@gmail.com</span>
+            </div>
+          </div>
+          <div class="col s12 m12 center-align yoannahs">
+            <h6>@ YoannaHS Product Design Portfolio</h6>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
   <!-- Librería de JS Jquery -->
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <!-- Archivo JS de Materialize -->
@@ -212,4 +300,5 @@
   <!-- Archivo JS personalizado -->
   <script src="js/app.js"></script>
 </body>
+
 </html>

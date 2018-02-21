@@ -9,97 +9,170 @@
 body {
   background-color: #F5F5F5;
 }
+
+/* Estilos Movile Logo */
 .container-white {
-  margin: 0 7em;
+  margin: 2rem 2rem 2rem;
   background-color: white;
 }
-/* Estilos para el header principal */
+
+.logo {
+  margin: 1rem;
+}
+
+/* Estilos desktop header*/
 .menu-principal {
   margin-top: 3rem;
   padding-top: 1rem;
 }
 
-.name-title p {
-  margin-top:10em; 
+@media (min-width: 600px) {
+  .container-white {
+    margin-top: 2rem;
+    margin: 0 4rem;
+  }
+
+  .name-title {
+    margin-top: 3rem;
+  }
+
+  .name-title strong {
+    filter: drop-shadow(3px 3px 1px #9889);
+    font-size: 1.8em;
+  }
+  
+  .name-title h4 {
+    line-height: 3em;
+  }
+  
+  .name-title .descripcion {
+    margin-top: 1em;
+    font-size: 1.2em;
+    padding: 3rem;
+  }
+
+  .photo-profile {
+    width: 15rem;
+    margin: 3rem 0;
+  }
+  
+  .section-social {
+    margin: 1rem 0 3rem 0;
+  }
+
+  
+/* Estilos para sección de proyectos */
+  .presentacion-proyects p {
+    font-size: 1.2em;
+    padding: 3rem;
+  }
+
+  .presentacion-proyects {
+    margin-top: 4em;
+  }
+
+  .presentacion-proyects span {
+    font-size: 2em;
+    line-height: 3em;
+  }
+
+  .process .icons {
+    padding: 3rem;
+  }
+
+  .process .icon-flujo {
+    width: 3rem;
+  }
+
+  .descripcion-flujo h6 {
+    font-size: 15px;
+    margin-bottom: 4rem;
+  }
+
+  .portfolio-text {
+    margin-top: 6rem;
+    color: #F3F3F3;
+    font-size: 3em; 
+  }
+
+  .section-img {
+    margin: 4rem 0;
+  }
+
+  .proyects-github {
+    margin-top: 4rem;
+  }
+
+  .content-box img {
+    width: 3rem;
+  }
+
+  .footer-box {
+    margin-top: 3rem;
+    height: 130px;
+  }
+
+  .yoannahs {
+    margin-top: 1rem;
+  }
 }
 
-.name-title strong {
+.name-title .myname {
+  margin-top:3rem; 
+  font-size: 2.5rem;
+  line-height: 1.8em;
+  font-weight: 500;
   filter: drop-shadow(3px 3px 1px #9889);
-  font-size: 3em;
 }
 
-.name-title span {
-  font-size: 2em;
-  line-height: 3em;
+.name-title h4 {
+  margin-top: 1rem;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 .name-title .descripcion {
-  margin-top: 1em;
   font-size: 1.2em;
-  padding: 3rem;
+  padding: 1rem;
 }
 
-/* Estilos para la sección de redes sociales */
-.section-social {
-  margin-top: rem;
-  margin-bottom: 4rem;
-}
-
-/* Estilos para la foto principal */
 .photo-profile {
   width: 15rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
 
-/* Estilos para sección de proyectos */
+
+/* Estilos para sección de proyectos movile */
+.presentacion-proyects {
+  margin-top: 2rem;
+}
 .presentacion-proyects p {
   font-size: 1.2em;
-  padding: 3rem;
+  line-height: 1.5em;
 }
 
-.presentacion-proyects {
-  margin-top: 4em;
-}
 .presentacion-proyects span {
-  font-size: 2em;
-  line-height: 3em;
-}
-.process .icons {
-  padding: 3rem;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
-.process .icon-flujo {
-  width: 3rem;
+
+/* Estilos para imágenes de los proyectos movile */
+
+.gh-pages {
+  margin: 2rem 0;
 }
 
-.descripcion-flujo h6 {
-  font-size: 15px;
-  margin-bottom: 4rem;
+.gh-pages i {
+  color: white;
+  margin-right: 1em;
 }
 
-.portfolio-text {
-  margin-top: 6rem;
-  color: #F3F3F3;
-  font-size: 3em;
+.email {
+  margin: 1rem 0;
 }
 
-.section-img {
-  margin: 4rem 0;
-}
-
-.proyects-github {
-  margin-top: 4rem;
-}
-
-/* Estilos del footer */
-.content-box img {
-  width: 3rem;
-}
-
-.footer-box {
-  margin-top: 3rem;
-  height: 130px;
-}
-
-.yoannahs {
-  margin-top: 1rem;
+.email i {
+  margin-right: 1rem;
 }
