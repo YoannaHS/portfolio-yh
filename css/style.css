@@ -26,11 +26,8 @@ body {
   padding-top: 1rem;
 }
 
-@media (min-width: 600px) {
-  .container-white {
-    margin-top: 2rem;
-    margin: 0 4rem;
-  }
+/* Estilos para la foto de portada */
+
 
   .name-title {
     margin-top: 3rem;

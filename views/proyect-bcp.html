@@ -4,9 +4,133 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Enlazamos el framework de Materialize -->
+  <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
+  <!-- Hoja de estilos personalizado -->
+  <link rel="stylesheet" href="../css/bcp-style.css">
+  <!-- Mi logo -->
+  <link rel="stylesheet" href="">
+  <!-- Enlazamos librería de iconos de fontawesome -->
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- Enlazamos tipografía de google font -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
   <title>Proyect - BCP</title>
 </head>
 <body>
-  
+  <div class="container-white">
+    <header>
+      <div class="row show-on-small hide-on-med-and-up">
+        <div class="col s12 m12 logo center-align">
+          <a href="index.html" data-activates="mobile-demo" class="btn btn-floating grey darken-1">YH</a>
+        </div>
+      </div>
+      <div class="row menu-principal hide-on-small-only">
+        <div class="col m12 left-align logo">
+          <a href="index.html" data-activates="mobile-demo" class="btn btn-floating grey darken-1">YH</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="col s12 m12">
+        <figure class="portada">
+          <img src="../assets/proyects/bcp/sketch-2.jpeg" class="responsive-img" alt="">
+          <figcaption>
+              <h5>Plataforma Digital CIX</h5>
+              <span>Hackathon 36 Horas</span>
+              <a href="http://www.laboratoria.la/" target="_black">Laboratoria</a>
+          </figcaption>
+        </figure>
+      </div>
+    </main>
+    <!-- Breve animación -->
+    <div class="animation">
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="col s12s center-align description">
+          <span>¿Cómo acercar los programas del Centro de Innovación - CIX a todas las áreas del banco?</span>
+          <p>Lo que el Banco de Crédito - BCP busca, es generar programas de innovación en alianzas con diferentes universidades
+            como
+            <a href="https://www.utec.edu.pe/" target="_black">UTEC, </a>
+            <a href="http://www.up.edu.pe/" target="_black">UP, </a>
+            <a href="https://www.stanford.edu/" target="_black">Stanford, </a>entre otras. Para cubrir las necesidades en diferentes áreas del banco</p>
+        </div>
+        <div class="row">
+          <div class="col s6 user">
+            <span>
+              <i class="fas fa-male" style="color:#ff383f"></i>Gerentes BCP</span>
+            <p>Desea innovar pero no tiene las herramientas.</p>
+          </div>
+          <div class="col s6 user">
+            <span>
+              <i class="fas fa-users" style="color:#ff383f"></i>Equipo del CIX</span>
+            <P>Tienen programas de innovación a ofrecer a los gerentes.</P>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 proceso">
+            <span><strong style="color:#ff383f">|</strong> El Proceso</span>
+          </div>
+        </div>
+        <div class="row proceso-hkt">
+          <div class="col s5">
+              <img src="../assets/proyects/bcp/diagrama-1.jpeg" class="responsive-img" alt="">
+          </div>
+          <div class="col s7 icon-proceso right-align">
+            <span><i class="fas fa-clone" style="color:#ff383f"></i>Diagrama de Afinidad</span>
+            <p class="right-align">Después de identificar a nuestros usuarios (Gerentes de área y de producto) sintetizamos la información de las entrevistas.</p>
+          </div>
+        </div>
+        <div class="row proceso-hkt">
+          <div class="col s5">
+              <img src="../assets/proyects/bcp/sketch-1.jpeg" class="responsive-img" alt="">
+          </div>
+          <div class="col s7 icon-proceso right-align">
+            <span>
+              <i class="fas fa-edit" style="color:#ff383f"></i>Sketch</span>
+              <p class="right-align">Ideamos una plataforma ágil y sencilla que contribuya y empodere a los gerentes para innovar en sus áreas con el uso de la tecnología.</p>
+          </div>
+        </div>
+        <div class="row proceso-hkt">
+          <div class="col s5">
+              <img src="../assets/proyects/bcp/testing.jpeg" class="responsive-img" alt="">
+          </div>
+          <div class="col s7 icon-proceso right-align">
+            <span><i class="fas fa-eye" style="color:#ff383f"></i>Testing</span>
+            <p class="right-align">Durante la iteración con los usuarios pudimos hacer pequeños ajustes logrando un flujo limpio y dinámico.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 proceso">
+            <span>
+              <strong style="color:#ff383f">|</strong> El Resultado</span>
+          </div>
+        </div>
+        <div class="row result">
+          <div class="col s12">
+            <figure>
+              <img src="../assets/proyects/bcp/producto.gif" class="responsive-img" alt="">
+            </figure>
+          </div>
+          <figcaption>
+              <h5>Una Plataforma Digital eficiente y práctica</h5>
+              <span>Logramos dejar clara la propuesta  de valor para los gerentes, que minimice esfuerzo humano y los empodere para involucrarse con la innovación abierta.</span>
+              <a href="http://www.laboratoria.la/" target="_black">Ver el Prototype Completo</a>
+          </figcaption>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Librería de JS Jquery -->
+  <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <!-- Archivo JS de Materialize -->
+  <script src="../vendors/materialize/js/materialize.min.js"></script>
 </body>
 </html>
