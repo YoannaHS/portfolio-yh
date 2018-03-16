@@ -124,5 +124,64 @@ figcaption a {
   .container-white {
     margin-top: 2rem;
     margin: 0 4rem;
+    font-size: 1.3em;
+  }
+
+  .portada {
+    margin: 5rem;
+  }
+
+  .cix-photo {
+    margin: 3rem;
+    width: 40vw;
+    margin-right: 4rem;
+  }
+
+  .proceso {
+    margin-top: 4em;
+  }
+  .proceso-hkt {
+    text-align: center;
+    height: 20%;
+    margin: 2em;
+  }
+
+  .usarios {
+    margin: 3rem;
+    font-size: 1.5em;
+  }
+
+  .foco span {
+    font-size: 1.5em;
+  }
+
+  .foco i {
+    margin-top: 2rem;
+  }
+
+  .foco {
+    margin-bottom: 10rem;
+    margin-top: 4em;
+  }
+
+  .photo-proyect {
+    width: 20vw;
+    margin: 4rem;
+  }
+
+  .proceso-hkt {
+    margin: 2em;
+  }
+  
+  .icon-proceso p {
+    margin-top: 2rem;
+  }
+
+  .journey {
+    margin: 4em;
+  }
+
+  .journey-actual {
+    margin-bottom: 3rem;
   }
 }
